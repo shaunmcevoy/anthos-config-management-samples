@@ -17,7 +17,7 @@ kind: CustomResourceDefinition
 metadata:
   name: anvils.acme.com
 spec:
-  group: acme.com
+  group acme.com
   versions:
     - name: v1
       served: true
